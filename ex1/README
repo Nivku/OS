@@ -1,0 +1,26 @@
+nivku, arnonguttel
+Niv Vaknin (20571706), Arnon guttel (205951874)
+EX: 1
+
+FILES:
+osm.cpp -- The OSM
+graph.png
+
+REMARKS:
+
+No remarks
+
+ANSWERS:
+
+Q1:
+
+The program "WhatIDo" receive one argument, then the program do the following:
+1. Create "Welcome" folder
+2. Opens "Welcome" and create "To" folder
+3. Opens "To" and create new file named: "os2021"
+4. write to os2021 file the following text:
+    "nivku/n If you haven't read the course guidelines yet ---- do it right
+    now! /n"
+5. closes the os2021 file.
+6. removes the "os2021" file, the "To" folder and the "Welcome" folder.
+7. exit.

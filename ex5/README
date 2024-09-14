@@ -1,0 +1,29 @@
+arnonguttel, nivku
+Arnon Guttel (205951874), Niv Vaknin (205717069)
+EX: 5
+
+FILES:
+   container.cpp
+   sockets.cpp
+   Makefile
+
+
+REMARKS:
+   No remarks
+
+
+ANSWERS:
+Q1 - We can use the linux pid namespaces to create a process hierarchy.
+
+Q2 - Using a separate mount namespace ensure that a process has a seperate view of the entire system's mountpoint structure from the
+original one, that will prevent the process from accessing out of process scope files.
+
+Q3 - Linux cgroups can be used to limit container actions. for example, cgroups can limit the number of  countainer processes. 
+
+Q4 -  The clone command is a system call that creates a new child process from the caller 
+to the clone. The fork command only creates a duplicate process of the caller and the clone command can get as an argument any function that’s supplied. In addition, with the clone command, we can control specific flags on namespaces and cgroups. For example -  to change the hostname, provide a new independent set of the file system/proc ids, etc.
+
+Q5 - The chroot command is a system call that actually gets a directory for a new file system root directory as an argument and changes the current process to be under this file system. The current process and the children can not access files and processes outside this new file system. 
+
+Q6 - Procfs it's a virtual file system which can gives information about the process and other system information. one of the uses of the procfs is to provide a communication between the kerel space and the user space.
+
